@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18D42" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Answers" representedClassName="Answers" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isCorrect" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="answers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="answers" inverseEntity="Questions" syncable="YES"/>
+    </entity>
+    <entity name="Questions" representedClassName="Questions" syncable="YES">
+        <attribute name="isAlreadyAnswered" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="answers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Answers" inverseName="answers" inverseEntity="Answers" syncable="YES"/>
+        <relationship name="questions" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subjects" inverseName="questions" inverseEntity="Subjects" syncable="YES"/>
+    </entity>
+    <entity name="Subjects" representedClassName="Subjects" syncable="YES">
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subjectId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Questions" inverseName="questions" inverseEntity="Questions" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Answers" positionX="-10510.09375" positionY="-1129.19140625" width="128" height="103"/>
+        <element name="Questions" positionX="-10708.83203125" positionY="-1360.41015625" width="128" height="118"/>
+        <element name="Subjects" positionX="-10919.48828125" positionY="-1340.40234375" width="128" height="88"/>
+    </elements>
 </model>

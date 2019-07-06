@@ -1,0 +1,353 @@
+{
+    "Subjects": [
+        {
+            "SubjectName": "English",
+            "SubjectId": 10,
+            "SubjectRating": 3,
+            "Questions": [
+                {
+                    "Question": "He did not give up fight even though he was badly bruised",
+                    "QuestionId": 101,
+                    "Answers": [
+                        {
+                            "Answer": "The fight did not give up by him even though he was badly bruised.",
+                            "AnswerId":1011,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "The fight had not given up by him even though he was badly bruised.",
+                            "AnswerId":1012,
+                            "isCorrect": false
+
+                        },
+                        {
+                            "Answer": "The fight was not given up by him even though he was badly bruised",
+                            "AnswerId": 1013,
+                            "isCorrect": true
+                        },
+                        {
+                            "Answer": "The fight was not being given up by him even though he was badly bruised.",
+                            "AnswerId": 1014,
+                            "isCorrect": false
+
+                        }
+                    ]
+                },
+                {
+                    "Question": "We should avoid tranquilizer in order to have a good health.",
+                    "QuestionId": 102,
+                    "Answers": [
+                        {
+                            "Answer": "Tranquilizer should avoided by us in order to have good health",
+                            "AnswerId": 1021,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "Tranquilizer should been avoided by us in order to have a good health.",
+                            "AnswerId": 1022,
+                            "isCorrect": false
+                            
+                        },
+                        {
+                            "Answer": "Tranquilizer should be avoid by us in order to have a good health.",
+                            "AnswerId": 1023,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "Tranquilizer should be avoided by us in order to have a good health.",
+                            "AnswerId": 1024,
+                            "isCorrect": true
+                        }
+                    ]
+                },
+                {
+                    "Question": "His wife upbraided him for his irresponsible handling of family finance.",
+                    "QuestionId": 103,
+                    "Answers": [
+                        {
+                            "Answer": "He upbraided by his wife for his irresponsible handling of the family finance.",
+                            "AnswerId": 1031,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "He was upbraided by his wife for his irresponsible handling of the family finance.",
+                            "AnswerId": 1032,
+                            "isCorrect": true
+                            
+                        },
+                        {
+                            "Answer": "He has upbraided by his wife for his irresponsible handling of the family finance.",
+                            "AnswerId": 1033,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "He were upbraided by his wife for his irresponsible handling of the family finance",
+                            "AnswerId": 1034,
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "Question": "She never understood me, whenever I said something",
+                    "QuestionId": 104,
+                    "Answers": [
+                        {
+                            "Answer": "Whenever I said something, I never understood by her",
+                            "AnswerId": 1041,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "Whenever I said something, I had never understood by her.",
+                            "AnswerId": 1042,
+                            "isCorrect": false
+                            
+                        },
+                        {
+                            "Answer": "Whenever I said something, I was being never understood by her.",
+                            "AnswerId": 1043,
+                            "isCorrect": false
+                        },
+                        {
+                            "Answer": "Whenever I said something I was never understood by her.",
+                            "AnswerId": 1044,
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+                {
+                    "SubjectName": "Physics",
+                    "SubjectId": 11,
+                    "SubjectRating": 3,
+                    "Questions": [
+                        {
+                            "Question": "man presses more weight on earth at",
+                            "QuestionId": 111,
+                            "Answers": [
+                                {
+                                    "Answer": "Sitting position",
+                                    "AnswerId":111,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Standing Position",
+                                    "AnswerId":1112,
+                                    "isCorrect": true
+                                    
+                                },
+                                {
+                                    "Answer": "Lying Position",
+                                    "AnswerId": 1113,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these.",
+                                    "AnswerId": 1114,
+                                    "isCorrect": false
+                                    
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "A piece of ice is dropped in a vesel containing kerosene. When ice melts, the level of kerosene will",
+                            "QuestionId": 112,
+                            "Answers": [
+                                {
+                                    "Answer": "Rise",
+                                    "AnswerId": 1121,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Fall",
+                                    "AnswerId": 1122,
+                                    "isCorrect": true
+                                    
+                                },
+                                {
+                                    "Answer": "Remain SameD",
+                                    "AnswerId": 1123,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these",
+                                    "AnswerId": 1124,
+                                    "isCorrect": false
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "Young's modulus is the property of",
+                            "QuestionId": 113,
+                            "Answers": [
+                                {
+                                    "Answer": "Gas onlyB",
+                                    "AnswerId": 1131,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Both Solid and Liquid",
+                                    "AnswerId": 1132,
+                                    "isCorrect": false
+                                    
+                                },
+                                {
+                                    "Answer": "Liquid only.",
+                                    "AnswerId": 1133,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Solid only",
+                                    "AnswerId": 1134,
+                                    "isCorrect": true
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "An artificial Satellite revolves round the Earth in circular orbit, which quantity remains constant?",
+                            "QuestionId": 114,
+                            "Answers": [
+                                {
+                                    "Answer": "Angular Momentum",
+                                    "AnswerId": 1141,
+                                    "isCorrect": true
+                                },
+                                {
+                                    "Answer": "Linear Velocity",
+                                    "AnswerId": 1142,
+                                    "isCorrect": false
+                                    
+                                },
+                                {
+                                    "Answer": "Angular Displacement",
+                                    "AnswerId": 1143,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these",
+                                    "AnswerId": 1144,
+                                    "isCorrect": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SubjectName": "Chemistry",
+                    "SubjectId": 12,
+                    "SubjectRating": 3,
+                    "Questions": [
+                        {
+                            "Question": "In equilibrium constant expression, concentration of products is taken in/on the",
+                            "QuestionId": 121,
+                            "Answers": [
+                                {
+                                    "Answer": "Right side",
+                                    "AnswerId": 1211,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Left side",
+                                    "AnswerId": 1212,
+                                    "isCorrect": false
+                                    
+                                },
+                                {
+                                    "Answer": "Numerator",
+                                    "AnswerId": 1213,
+                                    "isCorrect": true
+                                },
+                                {
+                                    "Answer": "Denominator",
+                                    "AnswerId": 1214,
+                                    "isCorrect": false
+                                    
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "Unit of equilibrium constant for H2 + I2 2HI is",
+                            "QuestionId": 122,
+                            "Answers": [
+                                {
+                                    "Answer": "No units",
+                                    "AnswerId": 1221,
+                                    "isCorrect": true
+                                },
+                                {
+                                    "Answer": "mol dm-3",
+                                    "AnswerId": 1222,
+                                    "isCorrect": false
+                                    
+                                },
+                                {
+                                    "Answer": "dm3mol-1",
+                                    "AnswerId": 1223,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these",
+                                    "AnswerId": 1224,
+                                    "isCorrect": false
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "What is representation of a reversible reaction?",
+                            "QuestionId": 123,
+                            "Answers": [
+                                {
+                                    "Answer": "Single arrow",
+                                    "AnswerId": 1231,
+                                    "isCorrect": true
+                                },
+                                {
+                                    "Answer": "Double arrows",
+                                    "AnswerId": 1232,
+                                    "isCorrect": false
+                                    
+                                },
+                                {
+                                    "Answer": "Bar",
+                                    "AnswerId": 1233,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these",
+                                    "AnswerId": 1234,
+                                    "isCorrect": false
+                                }
+                            ]
+                        },
+                        {
+                            "Question": "Rate at which reaction proceeds is directly proportional to",
+                            "QuestionId": 124,
+                            "Answers": [
+                                {
+                                    "Answer": "Product of the active masses of products",
+                                    "AnswerId": 1241,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "Product of the active masses of reactants",
+                                    "AnswerId": 1242,
+                                    "isCorrect": true
+                                    
+                                },
+                                {
+                                    "Answer": "Both A and B",
+                                    "AnswerId": 1243,
+                                    "isCorrect": false
+                                },
+                                {
+                                    "Answer": "None of these",
+                                    "AnswerId": 1244,
+                                    "isCorrect": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+            
+        }
